@@ -4,7 +4,7 @@ The maximum and minimum values for each column are compared with the maximum and
 
 各列の最大値、最小値と各 dtype で表現できる最大値、最小値を比較し、値が変わらない限り、できるだけメモリを消費しない dtype に変更する。
 
-## install
+## Install
 
 ```
 pip install reduce_memory_usage
