@@ -2,7 +2,7 @@
 
 The maximum and minimum values for each column are compared with the maximum and minimum values that can be expressed by each dtype, and the dtype is changed to one that uses as little memory as possible as long as the values remain the same.
 
-各列の dtype で表現できる最大値、最小値を比較し、値が変わらない限り、できるだけメモリを消費しない dtype に変更する。
+各列の dtype で表現できる最大値、最小値を比較し、できるだけメモリを消費しない dtype に変更する。
 
 ## Install
 
