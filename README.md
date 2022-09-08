@@ -1,6 +1,6 @@
 # reduce_memory_usage
 
-
+The maximum and minimum values for each column are compared with the maximum and minimum values that can be expressed by each dtype, and the dtype is changed to one that uses as little memory as possible as long as the values remain the same.
 
 ## install
 
