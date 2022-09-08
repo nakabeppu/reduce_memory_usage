@@ -27,8 +27,8 @@ df_origin = pd.DataFrame(data['data'], columns=data['feature_names'])
 
 df = reduce_memory_usage.reduce_memory_usage(df_origin)
 
->>>
-(Origin) Mem. usage decreased to  1.26 Mb
-(New) Mem. usage decreased to  0.32 Mb (75.0% reduction)
+>>> Result
+# (Origin) Mem. usage decreased to  1.26 Mb
+# (New) Mem. usage decreased to  0.32 Mb (75.0% reduction)
 
 ```
